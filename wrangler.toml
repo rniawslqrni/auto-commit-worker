@@ -1,0 +1,13 @@
+
+name = "auto-commit-worker"
+main = "worker.js"
+compatibility_date = "2026-10-02"
+
+[vars]
+GITHUB_OWNER = "rniawslqrni"
+GITHUB_REPO = "auto-commit-worker"
+GITHUB_BRANCH = "main"
+GITHUB_NAME = "awezil"
+
+[triggers]
+crons = ["5 0 * * *"]
